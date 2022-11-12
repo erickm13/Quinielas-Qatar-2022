@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'DM Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/fondoestadio.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car {
+    width: 800px;
+    height: 400px;
+
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(0 , 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_partido .fecha {
+    font-weight: bold;
+    position: relative;
+    width: 260px;
+    bottom: 120px;
+}
+
+.info_partido .estadio {
+    font-weight: bold;
+    position: relative;
+    bottom: 120px;
+}
+
+.info_partido .equipos .equipo1{
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+    left: 65px;
+}
+
+.info_partido .equipos .equipo2{
+    font-weight: bold;
+    position: relative;
+    bottom: 80px;
+    left: 550px;
+}
+
+.section_vati {
+    position: relative;
+    top: 70px;
+}
+
+.section_vati input{
+    text-align: center;
+    background: #c1c0c0;
+    border: none;
+    height: 40px;
+    width: 20%;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #222;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.boton_atras{
+    margin-bottom:320px;
+}
+
+.boton_atras a {
+    padding: 8px 20px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold;
+    background: #3e84fe;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.boton_atras a:hover{
+    opacity: 0.8;
+}
+
+.goles {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    top: 80px;
+    font-weight: bold;
+}
+
+.puntos_obtenidos {
+    position: relative;
+    width: 70%;
+    left: 100px;
+    text-align: center;
+    top: 110px;
+    font-weight: bold;
+}

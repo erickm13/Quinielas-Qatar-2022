@@ -1,0 +1,32 @@
+<html>
+  <head>
+     <title>
+        Ingreso de Equipos
+     </title>
+  </head>
+  <body>
+     <form action="registro_equipos.php" method="get">
+       <b>Nombre del Equipo:</b>
+       <input type="text" name="nombre" maxlength="50" size = "55" required><br>
+
+       <label for="grupo"><b>Grupo al que sera asignado:</b></label>
+
+       <select name="grupo" id="grupo">
+         <option value="A">Grupo A</option>
+         <option value="B">Grupo B</option>
+         <option value="C">Grupo C</option>
+         <option value="D">Grupo D</option>
+         <option value="E">Grupo E</option>
+		 <option value="F">Grupo F</option>
+		 <option value="G">Grupo G</option>
+		 <option value="H">Grupo H</option>
+       </select> 
+       <br>
+       <input type="submit" name="submit" value="enviar">     
+     </form>
+     <center>
+        <a href="administrar_equipos.html">Regresar</a>
+     </center>
+  </body>
+</html>
+

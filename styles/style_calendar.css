@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing_container {
+    width: 100%;
+    background-image: url('../img/fondoestadio.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.landing_container .title {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.236);
+}
+
+.landing_container .welcome {
+    font-size: 50px;
+    color: #FFF;
+}
+
+.landing_container .points {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.landing_container .buttons {
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #FFF;
+    background: rgba(35, 35, 35, 0.369);
+}
+
+.landing_container .buttons a {
+    padding: 9px 60px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.landing_container .buttons a:hover{
+    opacity: 0.8;
+    background: #000;
+}
+
+.container_bottom .titlebuttom {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container_bottom .titlebuttom h1 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.container_bottom .container_links {
+    display: flex;
+    justify-content: center;
+}
+
+.container_bottom .container_links a {
+    padding: 9px 10px;
+    font-size: 17px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgb(83, 74, 74);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container_bottom .container_links a:hover{
+    color: #000;
+    font-size: 18px;
+}
+
+table{
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th{
+    padding: 20px 50px;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    border: solid 2px rgb(239, 237, 237);
+}
+
+td{
+    padding: 20px 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    border: solid 2px rgb(239, 237, 237);
+}
+
+thead {
+    background-color: rgba(0, 157, 255, 0.987);
+    border-bottom: solid 5px rgb(87, 84, 84);
+    color: #FFF;
+}
+
+tr:nth-child(even){
+    background-color: rgba(235, 235, 235, 0.559);
+}
+
+td .bat1 {
+    text-align: center;
+    background: #c7c6c6;
+    border: none;
+    width: 6%;
+    height:30px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #222;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+td .bat1:hover{
+    opacity: 0.8;
+}
+
+td .bat2 {
+    text-align: center;
+    background: #c7c6c6;
+    border: none;
+    width: 6%;
+    height:30px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #222;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+td .bat2:hover{
+    opacity: 0.8;
+}
+
+td .botton_submit {
+    min-width: 60px;
+    max-width: 70px;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 10px;
+    background: rgb(41, 46, 116);
+    border-radius: 5px;
+    color: #FFF;
+    outline: none;
+    justify-content: center;
+    width: 15%;
+}
+
+td .botton_submit:hover {
+    opacity: 0.8;
+}
+
+.table_date .button {
+    min-width: 95px;
+    max-width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background: rgb(163, 247, 37);
+    border-radius: 5px;
+    color: #FFF;
+    outline: none;
+    justify-content: center;
+    width: 15%;
+}
+
+.table_date .button:hover {
+    background: rgb(128, 183, 10);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table_date .button a {
+    text-decoration: none;
+    color: rgb(97, 93, 93);
+}
+
+.table_date .button a:hover {
+    opacity: 0.8;
+    font-size: 15px;
+    color: #FFF;
+}
+
+.table_date .button2 {
+    min-width: 95px;
+    max-width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background: rgb(232, 85, 85);
+    border-radius: 5px;
+    outline: none;
+    justify-content: center;
+    width: 15%;
+}
+
+.table_date .button2:hover {
+    background: rgb(244, 54, 54);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table_date .button2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.table_date .button2 a:hover {
+    opacity: 0.8;
+    font-size: 15px;
+    color: rgb(58, 55, 55);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- awensome icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="icon" href="img/banneranimado.gif">
+    <link rel="stylesheet" href="styles/style_register.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<div class="body_page">
+    <div class="buttom_inicio">
+        <a class="buttom_inicio" href="index.html">Inicio</a>
+    </div>
+    <div class="buttom_login">
+        <a class="buttom_login" href="login.html">Iniciar Sesion</a>
+    </div>
+</div>
+<body>
+    <div class="car">
+        <div class="section_register">
+            <h1>REGISTRATE</h1>
+            <p class="description">¡Es rapido y facil!</p>
+            <form method="post" autocomplete="off" action="index-post.php">
+
+                <div class="form">
+                    <div class="input_group">
+                        <label for="name_input">NOMBRE</label>
+                        <input type="text" name="name_input" id="name_input" required>
+                    </div>
+                    <div class="input_group">
+                        <label for="lastname_input">APELLIDO</label>
+                        <input type="text" name="lastname_input" id="lastname_input" required>
+                    </div>
+                    <div class="input_group">
+                        <i class="fa-solid fa-user"></i>
+                        <label for="username_input">USUARIO</label>
+                        <input type="text" name="username_input" id="username_input" required>
+                    </div>
+    
+                    <div class="input_group">
+                        <i class="fa-solid fa-lock"></i>
+                        <label for="password_input">CONTRASEÑA</label>
+                        <input type="password" name="password_input" id="password_input" required>
+                    </div>
+    
+                    <button name="button_submit" class="button_submit">Registrarte</button>
+    
+                    <p class="description_form">Al hacer clic en "Registrarte", aceptas nuestras Condiciones, la Política de datos y la Política de cookies. </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'DM Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/fondoestadio.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car {
+    width: 800px;
+    height: 400px;
+
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(0 , 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_partido .fecha {
+    font-weight: bold;
+    position: relative;
+    width: 260px;
+    bottom: 140px;
+}
+
+.info_partido .estadio {
+    font-weight: bold;
+    position: relative;
+    bottom: 130px;
+}
+
+.info_partido .equipos .equipo1{
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+    left: 65px;
+}
+
+.info_partido .equipos .equipo2{
+    font-weight: bold;
+    position: relative;
+    bottom: 80px;
+    left: 550px;
+}
+
+.section_vati {
+    position: relative;
+    top: 70px;
+}
+
+.section_vati input{
+    text-align: center;
+    background: #c1c0c0;
+    border: none;
+    height: 40px;
+    width: 10%;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #222;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.section_vati input:hover{
+    opacity: 0.8;
+}
+
+.section_vati .button_submit button{
+    height: 40px;
+    margin-left:  47px;
+    margin-top: 60px;
+    background: #365b0f;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;
+    width: 20%;
+    outline: none;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section_vati .button_submit button:hover{
+    opacity: 0.8;
+}
+
+.resultado{
+    justify-content: center;
+    background: rgb(253, 0, 0);
+    width: 37%;
+    display: flex;
+    position: absolute;
+    margin-right: 100px;
+    top: 200px;
+}
+
+.resultado h3{
+    color: #FFF;
+}
+
+.boton_atras{
+    margin-bottom:320px;
+
+}
+
+.boton_atras a {
+    padding: 8px 20px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold;
+    background: #3e84fe;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.boton_atras a:hover{
+    opacity: 0.8;
+}

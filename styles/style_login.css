@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'DM Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/fondobanner.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car {
+    width: 800px;
+    height: 500px;
+
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(0 , 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_login {
+    width: 45%;
+}
+
+.section_login h1 {
+    font-size: 25px;
+    line-height: 100.7%;
+}
+
+.section_login .description {
+    font-size: 18px;
+    line-height: 100.7%;
+    color: #464444;
+    margin-bottom: 25px;
+}
+
+.input_group {
+    margin-bottom: 25px;
+}
+.form .input_group label {
+    float: left;
+    position: relative;
+    left: 7px;
+    font-size: 16px;
+    line-height: 100.7%;
+    color: #707070;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form .input_group input {
+    background: #F1F1F1;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #222;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form .input_group:hover {
+    opacity: 0.8;
+}
+
+.form .input_group input:focus {
+    box-shadow: 0 0 2px rgba(0 , 0, 0, 0.5);
+}
+
+.form .input_group i {
+    float:left;
+    font-size: 16px;
+    line-height: 100.7%;
+    color: #707070;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form .button_submit {
+    height: 40px;
+    background: #7f0101;
+    border-radius: 5px;
+    color: #FFF;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form .button_submit:hover {
+    opacity: 0.8;
+}
+
+.form .description_form {
+    margin-top: 15px;
+    font-size:  14px;
+    color: #222;
+}
+
+.form .link_form {
+    font-size: 14px;
+    color: #7f0101;
+    text-decoration: none;
+}
+
+.form .link_form:hover {
+    opacity: 0.8;
+}
+.section_img {
+    width: 45%;
+    height: 80%;
+    background:  #000;
+    border-radius:  5px;
+    overflow:  hidden;
+    box-shadow: 0px 4px 15px rgba(0 , 0, 0, 0.25);
+}
+
+.section_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+    .car {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .section_login{
+        width: 100%;
+
+    }
+
+    .section_img {
+        display: none;
+    }
+}

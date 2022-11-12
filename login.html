@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- awensome icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="icon" href="img/banneranimado.gif">
+    <link rel="stylesheet" href="styles/style_login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <div class="car">
+        <div class="section_login">
+            <h1>Bienvenido</h1>
+            <p class="description">¡Estamos emocionados de verte de nuevo!</p>
+            <div class="form">
+                <form action="valid_login.php" method="post">
+                    <div class="input_group">
+                        <i class="fa-solid fa-user"></i>
+                        <label for="username_input">USUARIO</label>
+                        <input type="text" name="username_input" id="username_input">
+                    </div>
+
+                    <div class="input_group">
+                        <i class="fa-solid fa-lock"></i>
+                        <label for="password_input">CONTRASEÑA</label>
+                        <input type="password" name="password_input" id="password_input">
+                    </div>
+
+                    <button name="button_submit" class="button_submit">Iniciar Sesion</button>
+
+                    <p class="description_form">¿No tienes una cuenta? <a href="register.html" class="link_form">registrate</a></p>
+                </div>
+            </div>
+                </form>
+        <div class="section_img">
+            <img src="img/banneranimado.gif" alt="">
+        </div>
+    </div>
+</body>
+</html>
